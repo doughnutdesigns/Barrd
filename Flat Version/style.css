@@ -69,11 +69,6 @@ body {
 	font-weight: 300;
 }
 
-.countdown-group {
-	width: auto;
-	display: inline-block;
-}
-
 .countdown-elem-flow-wrap {
 	height: 500px;
 	position: relative;
