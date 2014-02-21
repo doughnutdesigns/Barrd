@@ -40,7 +40,7 @@ body {
 	height: auto;
 	background-color: rgba(22, 160, 133,0.1);
 	display: inline-block;
-	padding: 30px;
+	padding: 80px;
 }
 
 #countdown .countdown-elem {
