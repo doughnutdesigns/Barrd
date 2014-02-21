@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Under Construction</title>
+	<meta charset=utf-8>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/countdown.js"></script>
+	
+	<script type="text/javascript">	
+		$(document).ready(function(){
+			$("#countdown").countdown({
+				date: "19 March 2014 00:00:00", // Enter date in format: DD (full month) YYYY HH:MM:SS
+				animation: "on" // Set to 'on' to enable countdown animation, set to 'off' to turn off animation
+			},
+			
+			function() { // Callback Function
+				window.location = ""; // Add a URL between the " " and the page will redirect to that address once countdown has ended
+				// Alternatively you can remove this window.location command and run another function
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="title">
+		<h1>Under Construction</h1>
+	</div>
+	
+	<div id="countdown">
+	
+		<div class="countdown-group">
+			<div class="countdown-elem elem-days">
+				<div class="countdown-elem-flow fsecs" id="flow-days"></div>
+				<h2 class="days">00</h2><span class="time_Days">days</span>
+			</div>
+			
+			<div class="countdown-elem elem-hours">
+				<div class="countdown-elem-flow fsecs" id="flow-hours"></div>
+				<h2 class="hours">00</h2><span class="time_Hours">hours</span>
+			</div>
+		</div><!--
+		--><div class="countdown-group">
+			<div class="countdown-elem elem-minutes">
+				<div class="countdown-elem-flow fsecs" id="flow-minutes"></div>
+				<h2 class="minutes">00</h2><span class="time_Minutes">minutes</span>
+			</div>
+			
+			<div class="countdown-elem elem-seconds">
+				<div class="countdown-elem-flow fsecs" id="flow-seconds"></div>
+				<h2 class="seconds"></h2><span class="time_Seconds">seconds</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
