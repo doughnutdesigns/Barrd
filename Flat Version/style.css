@@ -22,8 +22,10 @@ body {
 }
 
 .title h1 {
-	font-weight: 400;
-	font-family: 'Lobster', cursive;
+	font-weight: 900;
+	font-size: 48px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 
 #countdown {
