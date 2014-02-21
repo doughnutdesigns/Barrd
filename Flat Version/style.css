@@ -19,6 +19,7 @@ body {
 .title {
 	text-align: center;
 	color: white;
+	margin-bottom: 40px;
 }
 
 .title h1 {
@@ -28,13 +29,18 @@ body {
 	margin-bottom: 20px;
 }
 
-#countdown {
+.countdown-wrap {
 	width: 100%;
-	height: auto;
+	height: auto;	
 	text-align: center;
-	z-index: 200;
-	margin-top: 80px;
+}
+
+#countdown {
+	width: auto;
+	height: auto;
 	background-color: rgba(22, 160, 133,0.1);
+	display: inline-block;
+	padding: 30px;
 }
 
 #countdown .countdown-elem {
@@ -44,7 +50,7 @@ body {
 	margin-right: 15px;
 	margin-bottom: 30px;
 	height: auto;
-	width: 120px;
+	width: 140px;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
@@ -76,7 +82,7 @@ body {
 }
 
 .countdown-elem-flow-wrap {
-	height: 500px;
+	height: 450px;
 	position: relative;
 	display: block;
 }
