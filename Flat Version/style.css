@@ -33,7 +33,7 @@ body {
 	margin-left: 15px;
 	margin-right: 15px;
 	margin-bottom: 30px;
-	height: 600px;
+	height: auto;
 	width: 120px;
 	transition: all 0.5s ease;
 	-webkit-transition: all 0.5s ease;
