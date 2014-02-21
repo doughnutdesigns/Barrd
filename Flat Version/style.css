@@ -74,6 +74,7 @@ body {
 .countdown-elem-flow {
 	width: 100%;
 	background-color: #16a085;
+	position: absolute;
 	left: 0;
 	right: 0;
 	bottom: 0;
